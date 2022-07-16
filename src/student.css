@@ -1,0 +1,153 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*::selection {
+    background-color: lightgrey;
+}
+
+/* body background */
+
+.bg {
+    background-image: url("s-img/purple\ bg.jpg");
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    margin:auto;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* Heading */
+
+.heading {
+    color: aliceblue;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 2px solid blanchedalmond;
+}
+
+/* History board */
+
+.history {
+    float: left;
+    width: 40%;
+    margin: 20px;
+    overflow: auto;
+    background-color: beige;
+    border-radius: 8px;
+}
+
+.h-head {
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: darkred;
+}
+
+.history .app {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #cecfd1;
+}
+
+thead td {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: bisque;
+    text-align: start;
+    padding: 15px;
+}
+
+tbody tr td{
+    padding: 10px 15px;
+}
+
+a {
+    color:blueviolet;
+    font-weight: 400;;
+}
+
+a:hover {
+    color:rgb(178, 140, 213);
+}
+
+/* Application */
+
+.application {
+    float: right;
+    width: 50%;
+    margin: 20px;
+    overflow: auto;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.a-head {
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: darkred;
+}
+
+.location, .room, .date p {
+    font-weight: 200;
+    font-size: 20px;
+    color:rgb(59, 58, 58);
+    padding: 10px 0px; 
+}
+
+select {
+    width: 50%;
+    height: 30px;
+    background: whitesmoke;
+    border: none;
+    box-shadow: 0 5px 20px rgb(0,0,0,0.05);
+    margin: 10px 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type=date] {
+    padding: 10px;
+    font-size: 15px;
+    background: whitesmoke;
+    border: none;
+    box-shadow: 0 5px 20px rgb(0,0,0,0.05);
+    cursor: pointer;
+}
+
+.button {
+    background-color: #72336e;
+    border: none;
+    color: whitesmoke;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}

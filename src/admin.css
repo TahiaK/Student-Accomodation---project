@@ -1,0 +1,124 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*::selection {
+    background-color: lightgrey;
+}
+
+/* body background */
+
+.dashboard {
+    background-image: linear-gradient(rgba(137, 137, 187, 0.7), rgba(137, 137, 187, 0.7)), url(a-img/background.png);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    margin:auto;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* Dashboard heading */
+
+.bar {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 2rem 10%;
+    font-size: 30px;
+    color:aliceblue;
+}
+
+/* User heading */
+
+.user-h {
+    color: aliceblue;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 2px solid blanchedalmond;
+}
+
+/* User board */
+
+.user-board {
+    
+    margin: 20px;
+    overflow: auto;
+    background-color: beige;
+    border-radius: 8px;
+}
+
+.user-board h5 {
+    font-weight: 600;
+    font-size: 14px;;
+}
+
+.user-board p {
+    font-weight: 400;
+    font-size: 14px;
+    color: grey;
+}
+
+.user-board .user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #cecfd1;
+}
+
+thead td {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: rgb(243, 243, 240);
+    text-align: start;
+    padding: 15px;
+}
+
+tbody tr td{
+    padding: 10px 15px;
+}
+
+.v-e a{
+    color:rgba(106, 106, 189, 0.7);
+    font-weight: 400;
+}
+
+.v-e a:hover {
+    color:rgba(16, 16, 82, 0.7)
+}
+
+.add a{
+    color:rgba(6, 6, 7, 0.7);
+    padding: 15px;
+    font-weight: 600;
+    display: block;
+    float: right;
+    background-color: bisque;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.add a:hover {
+    color:rgba(79, 79, 159, 0.7)
+}
